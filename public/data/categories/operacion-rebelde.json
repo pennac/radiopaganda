@@ -1,0 +1,289 @@
+{
+  "category_info": {
+    "name": "Operación Rebelde",
+    "slug": "operacion-rebelde",
+    "description": "El despertar de la señal clandestina.",
+    "theme_color": "#00FF41"
+  },
+  "articles": [
+    {
+      "id": "post-01-juramento",
+      "slug": "el-juramento",
+      "category": "operacion-rebelde",
+      "status": "published",
+      "seo": {
+        "meta_title": "El Juramento | RADIOPAGANDA",
+        "meta_description": "¿Crees que tienes lo que hay que tener para RADIOPAGANDA?"
+      },
+      "content": {
+        "title": "EL JURAMENTO",
+        "hook": "¿Crees que tienes lo que hay que tener para RADIOPAGANDA? Primero, aprende a no caerte.",
+        "body": "El búnker no perdona, y la gravedad tampoco. Nuestro juramento exige lealtad total e inquebrantable, incluso cuando nuestra propia realidad de cartón se derrumba sobre ti.",
+        "cta": "ÚNETE A LA RED.",
+        "hashtags": [
+          "#Radiopaganda",
+          "#Rebelde",
+          "#Cyberpunk"
+        ]
+      },
+      "media": {
+        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/ac1221b7-7b2a-41e9-9e51-f5efee7be826/playlist.m3u8",
+        "video_url_social_mp4": "https://radiopaganda.b-cdn.net/videos/teaser-01.mp4",
+        "thumbnail": "/assets/img/thumb-juramento.jpg",
+        "captions_vtt": "/assets/subs/juramento.vtt"
+      },
+      "social_automation": {
+        "caption_text": "La gravedad no perdona en nuestro búnker. Así se forja la lealtad.",
+        "call_to_action": "Sintoniza la frecuencia completa en il link della bio."
+      }
+    },
+    {
+      "id": "post-02-voz-bunker",
+      "slug": "la-voz-del-bunker",
+      "category": "operacion-rebelde",
+      "status": "published",
+      "seo": {
+        "meta_title": "La Voz del Búnker | RADIOPAGANDA",
+        "meta_description": "Nuestra frecuencia es la única verdad."
+      },
+      "content": {
+        "title": "LA VOZ DEL BÚNKER",
+        "hook": "Buscamos voces, no perfección. Nuestra frecuencia es la única verdad.",
+        "body": "El hardware se rompe. La tecnología analógica falla. Los cables te atrapan. Pero el mensaje del Comando nunca se detiene.",
+        "cta": "¿Estás escuchando la señal?",
+        "hashtags": [
+          "#VozRebelde",
+          "#Bunker",
+          "#Transmision"
+        ]
+      },
+      "media": {
+        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/ac1221b7-7b2a-41e9-9e51-f5efee7be826/playlist.m3u8",
+        "video_url_social_mp4": "https://radiopaganda.b-cdn.net/videos/teaser-02.mp4",
+        "thumbnail": "/assets/img/thumb-voz.jpg",
+        "captions_vtt": "/assets/subs/voz.vtt"
+      },
+      "social_automation": {
+        "caption_text": "Nuestra radio puede ser de cartón, pero la señal es pura verdad. 📻",
+        "call_to_action": "Decodifica il messaggio nel link in bio."
+      }
+    },
+    {
+      "id": "post-03-instruccion",
+      "slug": "instruccion-de-campo",
+      "category": "operacion-rebelde",
+      "status": "published",
+      "seo": {
+        "meta_title": "Instrucción de Campo | RADIOPAGANDA",
+        "meta_description": "RADIOPAGANDA es invisible en el caos."
+      },
+      "content": {
+        "title": "INSTRUCCIÓN DE CAMPO",
+        "hook": "Lección uno: RADIOPAGANDA es invisible en el caos.",
+        "body": "Sabotaje de la realidad en curso. Cuando el bosque de neón decide colapsar, solo queda una opción: caer con dignidad.",
+        "cta": "Lealtad total a la red.",
+        "hashtags": [
+          "#Entrenamiento",
+          "#Infiltracion",
+          "#Fail"
+        ]
+      },
+      "media": {
+        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/ac1221b7-7b2a-41e9-9e51-f5efee7be826/playlist.m3u8",
+        "video_url_social_mp4": "https://radiopaganda.b-cdn.net/videos/teaser-03.mp4",
+        "thumbnail": "/assets/img/thumb-instruccion.jpg",
+        "captions_vtt": "/assets/subs/instruccion.vtt"
+      },
+      "social_automation": {
+        "caption_text": "Táctica avanzada: cómo caer con estilo cuando todo falla. ⚡",
+        "call_to_action": "Guarda il disastro nel link della bio."
+      }
+    },
+    {
+      "id": "post-04-protocolo",
+      "slug": "protocolo-de-sumision",
+      "category": "operacion-rebelde",
+      "status": "published",
+      "seo": {
+        "meta_title": "Protocolo de Sumisión | RADIOPAGANDA",
+        "meta_description": "El algoritmo te quiere dócil."
+      },
+      "content": {
+        "title": "PROTOCOLO DE SUMISIÓN",
+        "hook": "El algoritmo te quiere dócil. Nosotros te queremos despierto.",
+        "body": "Cada scroll es un contrato que firmas sin leer. Romper il protocollo fa male, ma è l'unico modo per uscire dal rumore bianco.",
+        "cta": "Apaga su señal. Enciende la nuestra.",
+        "hashtags": [
+          "#Protocolo",
+          "#Despierta",
+          "#NoAlgoritmo"
+        ]
+      },
+      "media": {
+        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/ac1221b7-7b2a-41e9-9e51-f5efee7be826/playlist.m3u8",
+        "video_url_social_mp4": "https://radiopaganda.b-cdn.net/videos/teaser-04.mp4",
+        "thumbnail": "/assets/img/thumb-protocolo.jpg",
+        "captions_vtt": "/assets/subs/protocolo.vtt"
+      },
+      "social_automation": {
+        "caption_text": "Deja de obedecer al algoritmo. 🤖❌",
+        "call_to_action": "Sintonizza il segnale puro nel link della bio."
+      }
+    },
+    {
+      "id": "post-05-friccion",
+      "slug": "friccion-termodinamica",
+      "category": "operacion-rebelde",
+      "status": "published",
+      "seo": {
+        "meta_title": "Fricción Termodinámica | RADIOPAGANDA",
+        "meta_description": "La verdad también quema."
+      },
+      "content": {
+        "title": "FRICCIÓN TERMODINÁMICA",
+        "hook": "Los servidores se calientan. La verdad también quema.",
+        "body": "La resistencia no es una idea, es física básica. Tarde o temprano, la fricción genera fuego en los sótanos de la ciudad.",
+        "cta": "Siente el calor del hardware.",
+        "hashtags": [
+          "#Friccion",
+          "#Hardware",
+          "#FisicaRebelde"
+        ]
+      },
+      "media": {
+        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/ac1221b7-7b2a-41e9-9e51-f5efee7be826/playlist.m3u8",
+        "video_url_social_mp4": "https://radiopaganda.b-cdn.net/videos/teaser-05.mp4",
+        "thumbnail": "/assets/img/thumb-friccion.jpg",
+        "captions_vtt": "/assets/subs/friccion.vtt"
+      },
+      "social_automation": {
+        "caption_text": "Cuando el sistema se sobrecalienta, nosotros brillamos. 🔥",
+        "call_to_action": "Accedi al bunker. Link nella bio."
+      }
+    },
+    {
+      "id": "post-06-estatica",
+      "slug": "estatica-mental",
+      "category": "operacion-rebelde",
+      "status": "published",
+      "seo": {
+        "meta_title": "Estática Mental | RADIOPAGANDA",
+        "meta_description": "El silencio ya no existe."
+      },
+      "content": {
+        "title": "ESTÁTICA MENTAL",
+        "hook": "El silencio ya no existe. Solo queda la estática.",
+        "body": "Te han vendido mindfulness cuando lo que necesitas es armadura electromagnética. Filtra el ruido.",
+        "cta": "Encuentra la señal entre el ruido.",
+        "hashtags": [
+          "#Estatica",
+          "#SaludMentalGoth",
+          "#Noise"
+        ]
+      },
+      "media": {
+        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/ac1221b7-7b2a-41e9-9e51-f5efee7be826/playlist.m3u8",
+        "video_url_social_mp4": "https://radiopaganda.b-cdn.net/videos/teaser-06.mp4",
+        "thumbnail": "/assets/img/thumb-estatica.jpg",
+        "captions_vtt": "/assets/subs/estatica.vtt"
+      },
+      "social_automation": {
+        "caption_text": "La estática es el lenguaje de la verdad. ¿Puedes oírla? 🎧",
+        "call_to_action": "Sintonizza il silenzio. Link in bio."
+      }
+    },
+    {
+      "id": "post-07-codigo",
+      "slug": "el-codigo-clandestino",
+      "category": "operacion-rebelde",
+      "status": "published",
+      "seo": {
+        "meta_title": "El Código Clandestino | RADIOPAGANDA",
+        "meta_description": "Usamos el absurdo."
+      },
+      "content": {
+        "title": "EL CÓDIGO CLANDESTINO",
+        "hook": "No usamos encriptación militar. Usamos el absurdo.",
+        "body": "Ocultamos mensajes en frecuencias muertas. Si parece un error, probablemente es una orden directa del Comando.",
+        "cta": "¿Puedes leer entre líneas?",
+        "hashtags": [
+          "#CodigoClandestino",
+          "#GlitchArt",
+          "#Absurdo"
+        ]
+      },
+      "media": {
+        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/ac1221b7-7b2a-41e9-9e51-f5efee7be826/playlist.m3u8",
+        "video_url_social_mp4": "https://radiopaganda.b-cdn.net/videos/teaser-07.mp4",
+        "thumbnail": "/assets/img/thumb-codigo.jpg",
+        "captions_vtt": "/assets/subs/codigo.vtt"
+      },
+      "social_automation": {
+        "caption_text": "El glitch es nuestro camuflaje perfecto. 👾",
+        "call_to_action": "Decodifica il video nel link in bio."
+      }
+    },
+    {
+      "id": "post-08-frecuencia",
+      "slug": "frecuencia-fantasma",
+      "category": "operacion-rebelde",
+      "status": "published",
+      "seo": {
+        "meta_title": "Frecuencia Fantasma | RADIOPAGANDA",
+        "meta_description": "Estamos en el dial."
+      },
+      "content": {
+        "title": "FRECUENCIA FANTASMA",
+        "hook": "Estamos en el dial, pero no en tu sintonizador comercial.",
+        "body": "Operamos en los márgenes de la banda FM, donde las emisoras corporativas no se atreven a llegar. Somos el eco.",
+        "cta": "Ajusta tu antena. Búscanos.",
+        "hashtags": [
+          "#RadioLibre",
+          "#Underground",
+          "#Frecuencia"
+        ]
+      },
+      "media": {
+        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/ac1221b7-7b2a-41e9-9e51-f5efee7be826/playlist.m3u8",
+        "video_url_social_mp4": "https://radiopaganda.b-cdn.net/videos/teaser-08.mp4",
+        "thumbnail": "/assets/img/thumb-frecuencia.jpg",
+        "captions_vtt": "/assets/subs/frecuencia.vtt"
+      },
+      "social_automation": {
+        "caption_text": "Sintoniza lo che vogliono proibire. 🏴‍☠️",
+        "call_to_action": "Segui il segnale. Link in bio."
+      }
+    },
+    {
+      "id": "post-09-manifiesto-cero",
+      "slug": "manifiesto-cero",
+      "category": "operacion-rebelde",
+      "status": "published",
+      "seo": {
+        "meta_title": "Manifiesto Cero | RADIOPAGANDA",
+        "meta_description": "Comienza la transmisión."
+      },
+      "content": {
+        "title": "MANIFIESTO CERO",
+        "hook": "El reclutamiento ha finalizado. Comienza la transmisión real.",
+        "body": "No hay vuelta atrás al feed corporativo. Has sido asimilado por la estética del Ruido Negro. La operación comienza ahora.",
+        "cta": "Mantén el canal abierto.",
+        "hashtags": [
+          "#ManifiestoCero",
+          "#Radiopaganda",
+          "#FinFase1"
+        ]
+      },
+      "media": {
+        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/ac1221b7-7b2a-41e9-9e51-f5efee7be826/playlist.m3u8",
+        "video_url_social_mp4": "https://radiopaganda.b-cdn.net/videos/teaser-09.mp4",
+        "thumbnail": "/assets/img/thumb-manifiesto.jpg",
+        "captions_vtt": "/assets/subs/manifiesto.vtt"
+      },
+      "social_automation": {
+        "caption_text": "Fase 1 completada. La red está viva. 🌐🌑",
+        "call_to_action": "Guarda il manifesto finale su radiopaganda.es"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "project": "RADIOPAGANDA",
+  "manifesto": {
+    "title": "EL COMANDO CENTRAL",
+    "description": "RADIOPAGANDA es una entidad clandestina. Buscamos voces, no perfección. Transmitimos desde el caos porque el caos es nuestra zona de confort. El control no se negocia, se impone. Únete a la red.",
+    "seo_title": "RADIOPAGANDA | Transmisión Clandestina",
+    "tags": ["Ruido Negro", "Propaganda", "Cyberpunk"]
+  },
+  "categories": [
+    {
+      "name": "Operación Rebelde",
+      "slug": "operacion-rebelde",
+      "description": "El reclutamiento. La demostración del protocolo de sumisión y la fricción termodinámica.",
+      "thumbnail": "/assets/img/cat-rebelde.jpg"
+    }
+  ]
+}
