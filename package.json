@@ -5,9 +5,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate && node scripts/notify-webhook.js operacion-rebelde",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "generate": "nuxi generate && (node scripts/notify-webhook.js operacion-rebelde || true)""postinstall": "nuxt prepare"
   },
   "dependencies": {
     "nuxt": "^4.4.2",
