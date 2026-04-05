@@ -3,6 +3,16 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   ssr: true,
+
+  // AGGIUNGI QUESTO BLOCCO NITRO
+  nitro: {
+    preset: 'netlify',
+    prerender: {
+      crawlLinks: true,
+      failOnError: false // Impedisce al build di morire se una pagina ha un piccolo errore
+    }
+  },
+
   app: {
     head: {
       title: 'RADIOPAGANDA',
