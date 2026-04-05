@@ -5,7 +5,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxi generate && (node scripts/notify-webhook.js operacion-rebelde || true)",
+    "generate": "nuxt generate && (node scripts/notify-webhook.js operacion-rebelde || echo '⚠️ Webhook skipped')",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
