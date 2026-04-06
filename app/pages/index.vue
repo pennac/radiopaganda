@@ -26,13 +26,10 @@ import { useFetch, useSeoMeta } from '#app';
 // Robust unique-keyed SSR data fetching using public JSONs for SSG
 const { data: feedData, pending, error: feedError } = await useFetch<any>('/data/categories/operacion-rebelde.json', {
   key: 'home-feed-data',
-  server: true
+  server: false
 });
 
-const { data: indexData, error: indexError } = await useFetch<any>('/data/index.json', {
-  key: 'home-index-data',
-  server: true
-});
+const { data: indexData, error: indexError } = await useAsyncData('home-feed-data', () => $fetch('/data/categories/operacion-rebelde.json'));
 
 // Fallback logic to prevent undefined crashes and infinite suspensions
 const articles = computed(() => {

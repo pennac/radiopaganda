@@ -32,7 +32,7 @@ const slug = route.params.slug as string;
 // Fetch filtered articles dynamically securely using internal API
 const { data: categoryData, pending, error } = await useFetch<any>(`/data/categories/${slug}.json`, {
   key: `category-${slug}`,
-  server: true
+  server: false
 });
 
 const articles = computed(() => {

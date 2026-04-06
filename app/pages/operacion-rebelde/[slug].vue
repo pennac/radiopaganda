@@ -64,7 +64,7 @@ const slug = route.params.slug as string;
 
 const { data: categoryData, pending, error } = await useFetch<any>('/data/categories/operacion-rebelde.json', {
   key: `article-${slug}`,
-  server: true
+  server: false
 });
 
 const article = computed(() => {

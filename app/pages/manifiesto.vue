@@ -32,7 +32,7 @@ import { useFetch, useSeoMeta } from '#app';
 
 const { data: indexData, pending, error } = await useFetch<any>('/data/index.json', {
   key: 'manifesto-data',
-  server: true
+  server: false
 });
 
 const manifesto = computed(() => {

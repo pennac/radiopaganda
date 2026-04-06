@@ -32,7 +32,7 @@ import { useFetch, useSeoMeta } from '#app';
 
 const { data: indexData, pending, error } = await useFetch<any>('/data/index.json', {
   key: 'categories-page',
-  server: true
+  server: false
 });
 
 const categories = computed(() => {

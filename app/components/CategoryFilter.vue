@@ -29,7 +29,7 @@ import { useFetch, useState } from '#app';
 
 const { data: indexData, error } = await useFetch<any>('/data/index.json', {
   key: 'categories-filter',
-  server: true
+  server: false
 });
 
 const categories = computed(() => {
