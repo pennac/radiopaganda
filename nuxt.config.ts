@@ -9,9 +9,7 @@ export default defineNuxtConfig({
   },
   // Riduciamo le routeRules allo stretto necessario per ora
   routeRules: {
-    '/': { prerender: true },
-    '/categorias/**': { prerender: true },
-    '/feed.json': { prerender: true }
+    '/': { prerender: true }
   },
 
   app: {
