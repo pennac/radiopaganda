@@ -27,7 +27,7 @@
 import { computed } from 'vue';
 import { useFetch, useState } from '#app';
 
-const { data: indexData, error } = await useFetch<any>('/data/index.json', {
+const { data: indexData, error } = await useFetch<any>('/api/get-index', {
   key: 'categories-filter',
   server: true
 });

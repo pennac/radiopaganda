@@ -29,9 +29,10 @@ import { useRoute, useFetch, useSeoMeta } from '#app';
 const route = useRoute();
 const slug = route.params.slug as string;
 
-// Fetch filtered articles dynamically securely
-const { data: categoryData, pending, error } = await useFetch<any>(`/data/categories/${slug}.json`, {
+// Fetch filtered articles dynamically securely using internal API
+const { data: categoryData, pending, error } = await useFetch<any>('/api/get-category', {
   key: `category-${slug}`,
+  query: { slug },
   server: true
 });
 

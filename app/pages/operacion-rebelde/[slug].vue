@@ -62,8 +62,9 @@ import { useRoute, useFetch, useSeoMeta } from '#app';
 const route = useRoute();
 const slug = route.params.slug as string;
 
-const { data: categoryData, pending, error } = await useFetch<any>('/data/categories/operacion-rebelde.json', {
+const { data: categoryData, pending, error } = await useFetch<any>('/api/get-category', {
   key: `article-${slug}`,
+  query: { slug: 'operacion-rebelde' },
   server: true
 });
 

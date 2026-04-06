@@ -30,7 +30,7 @@
 import { computed } from 'vue';
 import { useFetch, useSeoMeta } from '#app';
 
-const { data: indexData, pending, error } = await useFetch<any>('/data/index.json', {
+const { data: indexData, pending, error } = await useFetch<any>('/api/get-index', {
   key: 'categories-page',
   server: true
 });

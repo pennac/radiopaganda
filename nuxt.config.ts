@@ -4,7 +4,11 @@ export default defineNuxtConfig({
     preset: 'netlify',
     prerender: {
       failOnError: false,
-      crawlLinks: true
+      crawlLinks: true,
+      routes: [
+        '/api/get-index',
+        '/api/get-category?slug=operacion-rebelde'
+      ]
     }
   },
 
