@@ -58,8 +58,8 @@
         ]
       },
       "media": {
-        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/ac1221b7-7b2a-41e9-9e51-f5efee7be826/playlist.m3u8",
-        "video_url_social_mp4": "https://radiopaganda.b-cdn.net/videos/teaser-02.mp4",
+        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/d45c7be4-6b8a-4904-8ede-ee908a0d4d0a/playlist.m3u8",
+        "video_url_social_mp4": "https://vz-16d66a53-86f.b-cdn.net/d45c7be4-6b8a-4904-8ede-ee908a0d4d0a/playlist.m3u8",
         "thumbnail": "/assets/img/thumb-voz.jpg",
         "captions_vtt": "/assets/subs/voz.vtt"
       },
@@ -89,8 +89,8 @@
         ]
       },
       "media": {
-        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/ac1221b7-7b2a-41e9-9e51-f5efee7be826/playlist.m3u8",
-        "video_url_social_mp4": "https://radiopaganda.b-cdn.net/videos/teaser-03.mp4",
+        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/6cfaf7cb-fabf-4e6c-97b5-6c80aec07f8d/playlist.m3u8",
+        "video_url_social_mp4": "https://vz-16d66a53-86f.b-cdn.net/6cfaf7cb-fabf-4e6c-97b5-6c80aec07f8d/playlist.m3u8",
         "thumbnail": "/assets/img/thumb-instruccion.jpg",
         "captions_vtt": "/assets/subs/instruccion.vtt"
       },
@@ -120,8 +120,8 @@
         ]
       },
       "media": {
-        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/ac1221b7-7b2a-41e9-9e51-f5efee7be826/playlist.m3u8",
-        "video_url_social_mp4": "https://radiopaganda.b-cdn.net/videos/teaser-04.mp4",
+        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/18555501-d35b-4edf-9059-dc548618bcc6/playlist.m3u8",
+        "video_url_social_mp4": "https://vz-16d66a53-86f.b-cdn.net/18555501-d35b-4edf-9059-dc548618bcc6/playlist.m3u8",
         "thumbnail": "/assets/img/thumb-protocolo.jpg",
         "captions_vtt": "/assets/subs/protocolo.vtt"
       },
@@ -151,8 +151,8 @@
         ]
       },
       "media": {
-        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/ac1221b7-7b2a-41e9-9e51-f5efee7be826/playlist.m3u8",
-        "video_url_social_mp4": "https://radiopaganda.b-cdn.net/videos/teaser-05.mp4",
+        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/18555501-d35b-4edf-9059-dc548618bcc6/playlist.m3u8",
+        "video_url_social_mp4": "https://vz-16d66a53-86f.b-cdn.net/18555501-d35b-4edf-9059-dc548618bcc6/playlist.m3u8",
         "thumbnail": "/assets/img/thumb-friccion.jpg",
         "captions_vtt": "/assets/subs/friccion.vtt"
       },
