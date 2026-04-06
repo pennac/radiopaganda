@@ -12,8 +12,8 @@
     <div v-else-if="categories" class="flex flex-col gap-4 relative z-10">
       <NuxtLink 
         v-for="cat in categories" 
-        :key="cat.id" 
-        :to="`/categorias/${cat.id}`"
+        :key="cat.slug" 
+        :to="`/categorias/${cat.slug}`"
         class="block p-4 border border-gris-industrial bg-black hover:border-rojo-sangre hover:bg-gris-industrial/40 transition-colors group"
       >
         <h2 class="font-mono text-xl text-blanco-optico group-hover:text-rojo-sangre transition-colors mb-2 uppercase">{{ cat.name }}</h2>

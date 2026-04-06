@@ -13,8 +13,8 @@
     
     <NuxtLink 
       v-for="cat in categories" 
-      :key="cat.id"
-      :to="`/categorias/${cat.id}`"
+      :key="cat.slug"
+      :to="`/categorias/${cat.slug}`"
       exact-active-class="bg-rojo-sangre text-blanco-optico border-rojo-sangre"
       class="inline-block px-4 py-1.5 rounded-full border border-blanco-optico/20 text-blanco-optico/70 font-mono text-xs uppercase tracking-widest hover:border-rojo-sangre hover:text-rojo-sangre transition-colors min-w-max"
     >
