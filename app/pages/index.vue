@@ -23,14 +23,13 @@
 import { computed } from 'vue';
 import { useFetch, useSeoMeta } from '#app';
 
-// Robust unique-keyed SSR data fetching using Native Nitro API Bridge
-const { data: feedData, pending, error: feedError } = await useFetch<any>('/api/get-category', {
+// Robust unique-keyed SSR data fetching using public JSONs for SSG
+const { data: feedData, pending, error: feedError } = await useFetch<any>('/data/categories/operacion-rebelde.json', {
   key: 'home-feed-data',
-  query: { slug: 'operacion-rebelde' },
   server: true
 });
 
-const { data: indexData, error: indexError } = await useFetch<any>('/api/get-index', {
+const { data: indexData, error: indexError } = await useFetch<any>('/data/index.json', {
   key: 'home-index-data',
   server: true
 });
