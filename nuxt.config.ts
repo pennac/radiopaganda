@@ -1,16 +1,17 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2025-07-15',
-  devtools: { enabled: true },
-  ssr: true,
-
-  // AGGIUNGI QUESTO BLOCCO NITRO
+  // ... resto della tua config
   nitro: {
     preset: 'netlify',
     prerender: {
       crawlLinks: true,
-      failOnError: false // Impedisce al build di morire se una pagina ha un piccolo errore
+      failOnError: false, // <--- FONDAMENTALE: impedisce l'Exit Code 2
     }
+  },
+  // Riduciamo le routeRules allo stretto necessario per ora
+  routeRules: {
+    '/': { prerender: true },
+    '/categorias/**': { prerender: true },
+    '/feed.json': { prerender: true }
   },
 
   app: {
