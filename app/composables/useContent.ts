@@ -53,22 +53,36 @@ export interface ContentPayload {
 
 export const useContent = () => {
   const fetchManifesto = async (): Promise<Manifesto> => {
-    // Fetch from master index
-    const data: any = await $fetch('/data/index.json');
-    return data.manifesto;
+    try {
+      const data: any = await $fetch('/data/index.json');
+      return data?.manifesto || {
+        title: 'RADIOPAGANDA',
+        description: 'Transmisión Clandestina',
+        seo_title: 'RADIOPAGANDA',
+        tags: []
+      };
+    } catch (e) {
+      console.warn('Failed to load root manifesto:', e);
+      return { title: 'ERROR', description: 'SEÑAL PERDIDA', seo_title: 'Error', tags: [] };
+    }
   };
 
   const fetchCategories = async (): Promise<Category[]> => {
-    const data: any = await $fetch('/data/index.json');
-    return data.categories;
+    try {
+      const data: any = await $fetch('/data/index.json');
+      return data?.categories || [];
+    } catch (e) {
+      console.warn('Failed to load categories:', e);
+      return [];
+    }
   };
 
   const fetchArticlesByCategory = async (categorySlug: string): Promise<Article[]> => {
     try {
       const data: any = await $fetch(`/data/categories/${categorySlug}.json`);
-      return data.articles || [];
+      return data?.articles || [];
     } catch (e) {
-      console.warn(`Category JSON not found: ${categorySlug}`);
+      console.warn(`Critical: Category JSON not found: ${categorySlug}`, e);
       return [];
     }
   };

@@ -1,18 +1,14 @@
 export default defineNuxtConfig({
-  // ... resto della tua config
+  ssr: true,
   nitro: {
     preset: 'netlify',
     prerender: {
       crawlLinks: true,
-      failOnError: false, // <--- FONDAMENTALE: impedisce l'Exit Code 2
+      failOnError: false,
+      routes: ['/data/index.json', '/data/categories/operacion-rebelde.json']
     }
   },
-  // Riduciamo le routeRules allo stretto necessario per ora
-  routeRules: {
-    '/': { prerender: true },
-    '/categorias/**': { prerender: true },
-    '/feed.json': { prerender: true }
-  },
+
 
   app: {
     head: {
