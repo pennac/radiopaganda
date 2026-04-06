@@ -13,17 +13,22 @@
       "status": "published",
       "seo": {
         "meta_title": "El Juramento | RADIOPAGANDA",
-        "meta_description": "¿Crees que tienes lo que hay que tener para RADIOPAGANDA?"
+        "meta_description": "¿Crees que tienes lo que hay que tener para RADIOPAGANDA? Primero, aprende a no caerte."
       },
       "content": {
         "title": "EL JURAMENTO",
         "hook": "¿Crees que tienes lo que hay que tener para RADIOPAGANDA? Primero, aprende a no caerte.",
-        "body": "El búnker no perdona, y la gravedad tampoco. Nuestro juramento exige lealtad total e inquebrantable, incluso cuando nuestra propia realidad de cartón se derrumba sobre ti.",
-        "cta": "ÚNETE A LA RED.",
+        "body": "El búnker no perdona, y la gravedad tampoco. Nuestro juramento exige lealtad total e inquebrantable, incluso cuando nuestra propia realidad de cartón se derrumba sobre ti. La Operadora cayó, pero el contacto visual se mantiene. Eso es disciplina.",
+        "cta": "¿Tienes mejor equilibrio bajo presión? Demuéstralo. ÚNETE A LA RED.",
         "hashtags": [
           "#Radiopaganda",
-          "#Rebelde",
-          "#Cyberpunk"
+          "#RuidoNegro",
+          "#OperacionRebelde",
+          "#Cyberpunk",
+          "#GrungeAesthetic",
+          "#150BPM",
+          "#TacticalFail",
+          "#UneteALaRed"
         ]
       },
       "media": {
@@ -33,8 +38,8 @@
         "captions_vtt": "/assets/subs/juramento.vtt"
       },
       "social_automation": {
-        "caption_text": "La gravedad no perdona en nuestro búnker. Así se forja la lealtad.",
-        "call_to_action": "Sintoniza la frecuencia completa en il link della bio."
+        "caption_text": "¿Crees que tienes lo que hay que tener para RADIOPAGANDA? Primero, aprende a no caerte. 🚫\n\nEl búnker no perdona, y la gravedad tampoco. Nuestro juramento exige lealtad total e inquebrantable, incluso cuando nuestra propia realidad de cartón se derrumba sobre ti. La Operadora cayó, pero el contacto visual se mantiene. Eso es disciplina.",
+        "call_to_action": "¿Tienes mejor equilibrio bajo presión? Demuéstralo. ÚNETE A LA RED. Link en la bio. ⬇️👇"
       }
     },
     {
@@ -44,17 +49,22 @@
       "status": "published",
       "seo": {
         "meta_title": "La Voz del Búnker | RADIOPAGANDA",
-        "meta_description": "Nuestra frecuencia es la única verdad."
+        "meta_description": "Nuestra frecuencia es la única verdad... aunque nuestra radio sea de cartón."
       },
       "content": {
         "title": "LA VOZ DEL BÚNKER",
-        "hook": "Buscamos voces, no perfección. Nuestra frecuencia es la única verdad.",
-        "body": "El hardware se rompe. La tecnología analógica falla. Los cables te atrapan. Pero el mensaje del Comando nunca se detiene.",
-        "cta": "¿Estás escuchando la señal?",
+        "hook": "Buscamos voces, no perfección. Nuestra frecuencia es la única verdad... aunque nuestra radio sea de cartón.",
+        "body": "El hardware se rompe. La tecnología analógica falla. Los cables te atrapan y te arrastran al suelo. Pero el mensaje del Comando nunca se detiene. Transmitimos desde el caos porque el caos es nuestra zona de confort.",
+        "cta": "Sintoniza la red. Tu voz nos pertenece. ¿Estás escuchando la señal?",
         "hashtags": [
-          "#VozRebelde",
-          "#Bunker",
-          "#Transmision"
+          "#LaVozDelBunker",
+          "#Radiopaganda",
+          "#PirateRadio",
+          "#IndustrialGoth",
+          "#VHSGlitch",
+          "#DarkElectro",
+          "#UndergroundRadio",
+          "#UneteALaRed"
         ]
       },
       "media": {
@@ -64,8 +74,8 @@
         "captions_vtt": "/assets/subs/voz.vtt"
       },
       "social_automation": {
-        "caption_text": "Nuestra radio puede ser de cartón, pero la señal es pura verdad. 📻",
-        "call_to_action": "Decodifica il messaggio nel link in bio."
+        "caption_text": "Buscamos voces, no perfección. Nuestra frecuencia es la única verdad... aunque nuestra radio sea de cartón. 🎙️📻\n\nEl hardware se rompe. La tecnología analógica falla. Los cables te atrapan y te arrastran al suelo. Pero el mensaje del Comando nunca se detiene. Transmitimos desde el caos porque el caos es nuestra zona de confort.",
+        "call_to_action": "Sintoniza la red. Tu voz nos pertenece. ¿Estás escuchando la señal? Deja un 📡 en los comentarios si la recibes fuerte y claro."
       }
     },
     {
@@ -75,17 +85,22 @@
       "status": "published",
       "seo": {
         "meta_title": "Instrucción de Campo | RADIOPAGANDA",
-        "meta_description": "RADIOPAGANDA es invisible en el caos."
+        "meta_description": "RADIOPAGANDA es invisible en el caos. O al menos eso dice el manual."
       },
       "content": {
         "title": "INSTRUCCIÓN DE CAMPO",
-        "hook": "Lección uno: RADIOPAGANDA es invisible en el caos.",
-        "body": "Sabotaje de la realidad en curso. Cuando el bosque de neón decide colapsar, solo queda una opción: caer con dignidad.",
-        "cta": "Lealtad total a la red.",
+        "hook": "Lección uno: RADIOPAGANDA es invisible en el caos. O al menos eso dice el manual.",
+        "body": "Sabotaje de la realidad en curso. Cuando tu equipo táctico pesa más que tú y el bosque de neón decide colapsar, solo queda una opción: caer con la máxima dignidad posible. Infiltración fallida. Lealtad total a la red. Si caes, te levantas con la misma frialdad.",
+        "cta": "¿Sobrevivirías a nuestra instrucción de campo o tropezarías con el primer cable?",
         "hashtags": [
-          "#Entrenamiento",
-          "#Infiltracion",
-          "#Fail"
+          "#InstruccionDeCampo",
+          "#Radiopaganda",
+          "#NeonGrunge",
+          "#CyberPunkGirl",
+          "#RuidoNegro",
+          "#TacticalGear",
+          "#GlitchAesthetic",
+          "#UneteALaRed"
         ]
       },
       "media": {
@@ -95,28 +110,33 @@
         "captions_vtt": "/assets/subs/instruccion.vtt"
       },
       "social_automation": {
-        "caption_text": "Táctica avanzada: cómo caer con estilo cuando todo falla. ⚡",
-        "call_to_action": "Guarda il disastro nel link della bio."
+        "caption_text": "Lección uno: RADIOPAGANDA es invisible en el caos. O al menos eso dice el manual. 🌲⚡\n\nSabotaje de la realidad en curso. Cuando tu equipo táctico pesa más que tú y el bosque de neón decide colapsar, solo queda una opción: caer con la máxima dignidad posible. Infiltración fallida. Lealtad total a la red. Si caes, te levantas con la misma frialdad.",
+        "call_to_action": "¿Sobrevivirías a nuestra instrucción de campo o tropezarías con el primer cable? Etiqueta a tu escuadrón de infiltración en los comentarios. 👇🔥"
       }
     },
     {
-      "id": "post-04-protocolo",
-      "slug": "protocolo-de-sumision",
+      "id": "post-04-guante-hierro",
+      "slug": "el-guante-de-hierro",
       "category": "operacion-rebelde",
       "status": "published",
       "seo": {
-        "meta_title": "Protocolo de Sumisión | RADIOPAGANDA",
-        "meta_description": "El algoritmo te quiere dócil."
+        "meta_title": "El Guante de Hierro | RADIOPAGANDA",
+        "meta_description": "La precisión es nuestra arma. El control es nuestra ley."
       },
       "content": {
-        "title": "PROTOCOLO DE SUMISIÓN",
-        "hook": "El algoritmo te quiere dócil. Nosotros te queremos despierto.",
-        "body": "Cada scroll es un contrato que firmas sin leer. Romper il protocollo fa male, ma è l'unico modo per uscire dal rumore bianco.",
-        "cta": "Apaga su señal. Enciende la nuestra.",
+        "title": "EL GUANTE DE HIERRO",
+        "hook": "La precisión es nuestra arma. El control es nuestra ley. RADIOPAGANDA no admite manos temblorosas.",
+        "body": "Un simple chip de memoria. Una fisura en la realidad. La Operadora demuestra que incluso cuando el equipo táctico te inmoviliza y la gravedad intenta humillarte, el mando se mantiene. Si la red te bloquea, conviértete en la red. El control no se negocia, se impone.",
+        "cta": "¿Tienes el pulso firme o tu lealtad tiembla ante el primer obstáculo? Demuestra tu control. ÚNETE A LA RED.",
         "hashtags": [
-          "#Protocolo",
-          "#Despierta",
-          "#NoAlgoritmo"
+          "#Radiopaganda",
+          "#ElGuanteDeHierro",
+          "#RuidoNegro",
+          "#IndustrialMinimal",
+          "#TacticalClumsiness",
+          "#CyberpunkAesthetic",
+          "#150BPM",
+          "#UneteALaRed"
         ]
       },
       "media": {
@@ -126,28 +146,33 @@
         "captions_vtt": "/assets/subs/protocolo.vtt"
       },
       "social_automation": {
-        "caption_text": "Deja de obedecer al algoritmo. 🤖❌",
-        "call_to_action": "Sintonizza il segnale puro nel link della bio."
+        "caption_text": "La precisión es nuestra arma. El control es nuestra ley. RADIOPAGANDA no admite manos temblorosas. 🧤⚡\n\nUn simple chip de memoria. Una fisura en la realidad. La Operadora demuestra que incluso cuando el equipo táctico te inmoviliza y la gravedad intenta humillarte, el mando se mantiene. Si la red te bloquea, conviértete en la red. El control no se negocia, se impone.",
+        "call_to_action": "¿Tienes el pulso firme o tu lealtad tiembla ante el primer obstáculo? Demuestra tu control. ÚNETE A LA RED. ⬇️👇"
       }
     },
     {
-      "id": "post-05-friccion",
-      "slug": "friccion-termodinamica",
+      "id": "post-05-trance-cinetica",
+      "slug": "trance-cinetica",
       "category": "operacion-rebelde",
       "status": "published",
       "seo": {
-        "meta_title": "Fricción Termodinámica | RADIOPAGANDA",
-        "meta_description": "La verdad también quema."
+        "meta_title": "Trance Cinética | RADIOPAGANDA",
+        "meta_description": "Un soldado de RADIOPAGANDA es una roca. Inmóvil. Eterno. Absoluto."
       },
       "content": {
-        "title": "FRICCIÓN TERMODINÁMICA",
-        "hook": "Los servidores se calientan. La verdad también quema.",
-        "body": "La resistencia no es una idea, es física básica. Tarde o temprano, la fricción genera fuego en los sótanos de la ciudad.",
-        "cta": "Siente el calor del hardware.",
+        "title": "TRANCE CINÉTICA",
+        "hook": "Un soldado de RADIOPAGANDA es una roca. Inmóvil. Eterno. Absoluto.",
+        "body": "La \"Trance Cinética\" no es solo una pose, es una armadura mental. Cuando la realidad de cartón se agrieta y el mundo se derrumba sobre tus hombros, tu lealtad debe permanecer rígida. La Operadora demuestra que el control total empieza por no mover ni un solo músculo... aunque el búnker decida lo contrario.",
+        "cta": "¿Eres el diamante en el ruido o te quiebras bajo presión? Mantén la posición. ÚNETE A LA RED.",
         "hashtags": [
-          "#Friccion",
-          "#Hardware",
-          "#FisicaRebelde"
+          "#Radiopaganda",
+          "#TranceCinetica",
+          "#RuidoNegro",
+          "#IndustrialDance",
+          "#CyberpunkVibes",
+          "#TacticalStiffness",
+          "#VHSGlitch",
+          "#UneteALaRed"
         ]
       },
       "media": {
@@ -157,132 +182,153 @@
         "captions_vtt": "/assets/subs/friccion.vtt"
       },
       "social_automation": {
-        "caption_text": "Cuando el sistema se sobrecalienta, nosotros brillamos. 🔥",
-        "call_to_action": "Accedi al bunker. Link nella bio."
+        "caption_text": "Un soldado de RADIOPAGANDA es una roca. Inmóvil. Eterno. Absoluto. 🗿⚡\n\nLa \"Trance Cinética\" no es solo una pose, es una armadura mental. Cuando la realidad de cartón se agrieta y el mundo se derrumba sobre tus hombros, tu lealtad debe permanecer rígida. La Operadora demuestra que el control total empieza por no mover ni un solo músculo... aunque el búnker decida lo contrario.",
+        "call_to_action": "¿Eres el diamante en el ruido o te quiebras bajo presión? Mantén la posición. ÚNETE A LA RED. ⬇️👇"
       }
     },
     {
-      "id": "post-06-estatica",
-      "slug": "estatica-mental",
+      "id": "post-06-paso-tactico",
+      "slug": "paso-tactico",
       "category": "operacion-rebelde",
       "status": "published",
       "seo": {
-        "meta_title": "Estática Mental | RADIOPAGANDA",
-        "meta_description": "El silencio ya no existe."
+        "meta_title": "Paso Táctico | RADIOPAGANDA",
+        "meta_description": "Silencio. Sombras. Lealtad. RADIOPAGANDA camina donde otros caen."
       },
       "content": {
-        "title": "ESTÁTICA MENTAL",
-        "hook": "El silencio ya no existe. Solo queda la estática.",
-        "body": "Te han vendido mindfulness cuando lo que necesitas es armadura electromagnética. Filtra el ruido.",
-        "cta": "Encuentra la señal entre el ruido.",
+        "title": "PASO TÁCTICO",
+        "hook": "Silencio. Sombras. Lealtad. RADIOPAGANDA camina donde otros caen.",
+        "body": "Dicen que la verdadera infiltración no deja rastro. Nosotros preferimos derribar la torre de seguridad entera con nuestros propios cables. ¿La Operadora quedó atrapada por sus botas tácticas de 10 kilos? Tal vez. Pero miren esa pose entre los escombros de cartón. El estilo y el dominio psicológico no se pierden ni cuando muerdes el polvo.",
+        "cta": "¿Tienes el paso ligero o desatas el caos táctico a cada paso? ÚNETE A LA RED.",
         "hashtags": [
-          "#Estatica",
-          "#SaludMentalGoth",
-          "#Noise"
+          "#PasoTactico",
+          "#Radiopaganda",
+          "#RuidoNegro",
+          "#CyberpunkStyle",
+          "#IndustrialGoth",
+          "#TacticalFail",
+          "#VHSGlitch",
+          "#UneteALaRed"
         ]
       },
       "media": {
-        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/ac1221b7-7b2a-41e9-9e51-f5efee7be826/playlist.m3u8",
-        "video_url_social_mp4": "https://radiopaganda.b-cdn.net/videos/teaser-06.mp4",
+        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/ecb8e705-d1ed-4dc7-8dec-b6677e5466bb/playlist.m3u8",
+        "video_url_social_mp4": "https://vz-16d66a53-86f.b-cdn.net/ecb8e705-d1ed-4dc7-8dec-b6677e5466bb/playlist.m3u8",
         "thumbnail": "/assets/img/thumb-estatica.jpg",
         "captions_vtt": "/assets/subs/estatica.vtt"
       },
       "social_automation": {
-        "caption_text": "La estática es el lenguaje de la verdad. ¿Puedes oírla? 🎧",
-        "call_to_action": "Sintonizza il silenzio. Link in bio."
+        "caption_text": "Silencio. Sombras. Lealtad. RADIOPAGANDA camina donde otros caen. 👟⚡\n\nDicen que la verdadera infiltración no deja rastro. Nosotros preferimos derribar la torre de seguridad entera con nuestros propios cables. ¿La Operadora quedó atrapada por sus botas tácticas de 10 kilos? Tal vez. Pero miren esa pose entre los escombros de cartón. El estilo y el dominio psicológico no se pierden ni cuando muerdes el polvo.",
+        "call_to_action": "¿Tienes el paso ligero o desatas el caos táctico a cada paso? ÚNETE A LA RED. ⬇️👇"
       }
     },
     {
-      "id": "post-07-codigo",
-      "slug": "el-codigo-clandestino",
+      "id": "post-07-demolicion-tactica",
+      "slug": "demolicion-tactica",
       "category": "operacion-rebelde",
       "status": "published",
       "seo": {
-        "meta_title": "El Código Clandestino | RADIOPAGANDA",
-        "meta_description": "Usamos el absurdo."
+        "meta_title": "Demolición Táctica | RADIOPAGANDA",
+        "meta_description": "En RADIOPAGANDA, ninguna barrera es eterna."
       },
       "content": {
-        "title": "EL CÓDIGO CLANDESTINO",
-        "hook": "No usamos encriptación militar. Usamos el absurdo.",
-        "body": "Ocultamos mensajes en frecuencias muertas. Si parece un error, probablemente es una orden directa del Comando.",
-        "cta": "¿Puedes leer entre líneas?",
+        "title": "DEMOLICIÓN TÁCTICA",
+        "hook": "En RADIOPAGANDA, ninguna barrera es eterna. O eso dice el manual de demolición.",
+        "body": "¿El enemigo es una puerta de cartón? ¿Tus botas pesan más que tu sentido común? No importa. La Operadora demuestra que si no puedes derribar el muro, siempre puedes rebotar con estilo. El objetivo fue eliminado (de alguna manera) y nuestra resiliencia es absoluta. Si el búnker te entierra, saluda desde los escombros.",
+        "cta": "¿Eres una fuerza imparable o un rebote táctico? ÚNETE A LA RED.",
         "hashtags": [
-          "#CodigoClandestino",
-          "#GlitchArt",
-          "#Absurdo"
+          "#DemolicionTactica",
+          "#Radiopaganda",
+          "#RuidoNegro",
+          "#CyberpunkStyle",
+          "#IndustrialGoth",
+          "#TacticalFail",
+          "#ObjetivoEliminado",
+          "#UneteALaRed"
         ]
       },
       "media": {
-        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/ac1221b7-7b2a-41e9-9e51-f5efee7be826/playlist.m3u8",
-        "video_url_social_mp4": "https://radiopaganda.b-cdn.net/videos/teaser-07.mp4",
+        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/17037bf2-a3d3-47f0-a43e-736dd8c90b91/playlist.m3u8",
+        "video_url_social_mp4": "https://vz-16d66a53-86f.b-cdn.net/17037bf2-a3d3-47f0-a43e-736dd8c90b91/playlist.m3u8",
         "thumbnail": "/assets/img/thumb-codigo.jpg",
         "captions_vtt": "/assets/subs/codigo.vtt"
       },
       "social_automation": {
-        "caption_text": "El glitch es nuestro camuflaje perfecto. 👾",
-        "call_to_action": "Decodifica il video nel link in bio."
+        "caption_text": "En RADIOPAGANDA, ninguna barrera es eterna. O eso dice el manual de demolición. 🧱⚡\n\n¿El enemigo es una puerta de cartón? ¿Tus botas pesan más que tu sentido común? No importa. La Operadora demuestra que si no puedes derribar el muro, siempre puedes rebotar con estilo. El objetivo fue eliminado (de alguna manera) y nuestra resiliencia es absoluta. Si el búnker te entierra, saluda desde los escombros.",
+        "call_to_action": "¿Eres una fuerza imparable o un rebote táctico? ÚNETE A LA RED. ⬇️👇"
       }
     },
     {
-      "id": "post-08-frecuencia",
-      "slug": "frecuencia-fantasma",
+      "id": "post-08-danza-comando",
+      "slug": "la-danza-del-comando",
       "category": "operacion-rebelde",
       "status": "published",
       "seo": {
-        "meta_title": "Frecuencia Fantasma | RADIOPAGANDA",
-        "meta_description": "Estamos en el dial."
+        "meta_title": "La Danza del Comando | RADIOPAGANDA",
+        "meta_description": "El ritmo de la resistencia no se baila, se obedece."
       },
       "content": {
-        "title": "FRECUENCIA FANTASMA",
-        "hook": "Estamos en el dial, pero no en tu sintonizador comercial.",
-        "body": "Operamos en los márgenes de la banda FM, donde las emisoras corporativas no se atreven a llegar. Somos el eco.",
-        "cta": "Ajusta tu antena. Búscanos.",
+        "title": "LA DANZA DEL COMANDO",
+        "hook": "El ritmo de la resistencia no se baila, se obedece.",
+        "body": "La victoria en RADIOPAGANDA tiene su propria coreografía. ¿Tus botas de 10 kilos no te dejan saltar? ¿Tu equipo táctico te mantiene rígida como una estatua? Mueve el alma, porque el cuerpo ya es propiedad del Comando. La Operadora demuestra que un tropiezo es solo un paso de baile más en nuestra frecuencia clandestina. Si caes, que sea con ritmo.",
+        "cta": "¿Sigues nuestro pulso o bailas fuera de frecuencia? El búnker dicta las reglas. ÚNETE A LA RED.",
         "hashtags": [
-          "#RadioLibre",
-          "#Underground",
-          "#Frecuencia"
+          "#LaDanzaDelComando",
+          "#Radiopaganda",
+          "#RuidoNegro",
+          "#TechnoViking",
+          "#IndustrialDance",
+          "#TacticalFail",
+          "#CyberpunkAesthetic",
+          "#150BPM",
+          "#UneteALaRed"
         ]
       },
       "media": {
-        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/ac1221b7-7b2a-41e9-9e51-f5efee7be826/playlist.m3u8",
-        "video_url_social_mp4": "https://radiopaganda.b-cdn.net/videos/teaser-08.mp4",
+        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/df8c9834-6808-4813-8ce4-b5411e60090c/playlist.m3u8",
+        "video_url_social_mp4": "https://vz-16d66a53-86f.b-cdn.net/df8c9834-6808-4813-8ce4-b5411e60090c/playlist.m3u8",
         "thumbnail": "/assets/img/thumb-frecuencia.jpg",
         "captions_vtt": "/assets/subs/frecuencia.vtt"
       },
       "social_automation": {
-        "caption_text": "Sintoniza lo che vogliono proibire. 🏴‍☠️",
-        "call_to_action": "Segui il segnale. Link in bio."
+        "caption_text": "El ritmo de la resistencia no se baila, se obedece. 🕺⚡\n\nLa victoria en RADIOPAGANDA tiene su propria coreografía. ¿Tus botas de 10 kilos no te dejan saltar? ¿Tu equipo táctico te mantiene rígida como una estatua? Mueve el alma, porque el cuerpo ya es propiedad del Comando. La Operadora demuestra que un tropiezo es solo un paso de baile más en nuestra frecuencia clandestina. Si caes, que sea con ritmo.",
+        "call_to_action": "¿Sigues nuestro pulso o bailas fuera de frecuencia? El búnker dicta las reglas. ÚNETE A LA RED. ⬇️👇"
       }
     },
     {
-      "id": "post-09-manifiesto-cero",
-      "slug": "manifiesto-cero",
+      "id": "post-09-colapso-final",
+      "slug": "el-colapso-final",
       "category": "operacion-rebelde",
       "status": "published",
       "seo": {
-        "meta_title": "Manifiesto Cero | RADIOPAGANDA",
-        "meta_description": "Comienza la transmisión."
+        "meta_title": "El Colapso Final | RADIOPAGANDA",
+        "meta_description": "El mundo se cae. RADIOPAGANDA permanece."
       },
       "content": {
-        "title": "MANIFIESTO CERO",
-        "hook": "El reclutamiento ha finalizado. Comienza la transmisión real.",
-        "body": "No hay vuelta atrás al feed corporativo. Has sido asimilado por la estética del Ruido Negro. La operación comienza ahora.",
-        "cta": "Mantén el canal abierto.",
+        "title": "EL COLAPSO FINAL",
+        "hook": "El mundo se cae. RADIOPAGANDA permanece. ¿Vienes con nosotros?",
+        "body": "El set está destruido. Nuestra tecnología es de cartón y nuestros cables son una trampa mortal. Pero miren a la Operadora: levantándose de las ruinas con la misma mirada de superioridad absoluta. No vendemos perfección táctica, vendemos lealtad en el caos. La transmisión se corta, pero el búnker es eterno.",
+        "cta": "La red se apaga. Si tienes nuestra frecuencia grabada a fuego, deja un 🖤 en los comentarios. Nos vemos en las sombras.",
         "hashtags": [
-          "#ManifiestoCero",
-          "#Radiopaganda",
-          "#FinFase1"
+          "#ElColapsoFinal",
+          "#RadiopagandaOMuerte",
+          "#RuidoNegro",
+          "#CyberpunkAesthetic",
+          "#IndustrialGoth",
+          "#TacticalSensuality",
+          "#BunkerLife",
+          "#UneteALaRed"
         ]
       },
       "media": {
-        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/ac1221b7-7b2a-41e9-9e51-f5efee7be826/playlist.m3u8",
-        "video_url_social_mp4": "https://radiopaganda.b-cdn.net/videos/teaser-09.mp4",
+        "video_url_hls": "https://vz-16d66a53-86f.b-cdn.net/07a44840-f610-47ad-ab1b-a223199c84b5/playlist.m3u8",
+        "video_url_social_mp4": "https://vz-16d66a53-86f.b-cdn.net/07a44840-f610-47ad-ab1b-a223199c84b5/playlist.m3u8",
         "thumbnail": "/assets/img/thumb-manifiesto.jpg",
         "captions_vtt": "/assets/subs/manifiesto.vtt"
       },
       "social_automation": {
-        "caption_text": "Fase 1 completada. La red está viva. 🌐🌑",
-        "call_to_action": "Guarda il manifesto finale su radiopaganda.es"
+        "caption_text": "El mundo se cae. RADIOPAGANDA permanece. ¿Vienes con nosotros? 🌋⚡\n\nEl set está destruido. Nuestra tecnología es de cartón y nuestros cables son una trampa mortal. Pero miren a la Operadora: levantándose de las ruinas con la misma mirada de superioridad absoluta. No vendemos perfección táctica, vendemos lealtad en el caos. La transmisión se corta, pero el búnker es eterno.",
+        "call_to_action": "La red se apaga. Si tienes nuestra frecuencia grabada a fuego, deja un 🖤 en los comentarios. Nos vemos en las sombras."
       }
     }
   ]
