@@ -23,16 +23,22 @@
 </template>
 
 <script setup lang="ts">
-import { useRoute, useAsyncData, useSeoMeta } from '#app';
-import { useContent } from '~/composables/useContent';
+import { computed } from 'vue';
+import { useRoute, useFetch, useSeoMeta } from '#app';
 
 const route = useRoute();
 const slug = route.params.slug as string;
 
-const { fetchArticlesByCategory } = useContent();
+// Fetch filtered articles dynamically securely
+const { data: categoryData, pending, error } = await useFetch<any>(`/data/categories/${slug}.json`, {
+  key: `category-${slug}`,
+  server: true
+});
 
-// Fetch filtered articles
-const { data: articles, pending } = await useAsyncData(`category-${slug}`, () => fetchArticlesByCategory(slug));
+const articles = computed(() => {
+  if (error.value || !categoryData.value?.articles) return [];
+  return categoryData.value.articles;
+});
 
 useSeoMeta({
   title: `Categoría: ${slug} | RADIOPAGANDA`,

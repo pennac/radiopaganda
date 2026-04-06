@@ -2,10 +2,15 @@ export default defineNuxtConfig({
   ssr: true,
   nitro: {
     preset: 'netlify',
+    publicAssets: [
+      {
+        baseURL: '/data',
+        dir: 'public/data' // Forza l'inclusione di questa cartella nel búnker finale
+      }
+    ],
     prerender: {
-      crawlLinks: true,
       failOnError: false,
-      routes: ['/data/index.json', '/data/categories/operacion-rebelde.json']
+      crawlLinks: true
     }
   },
 
@@ -31,9 +36,10 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxtjs/tailwindcss',
-    '@vite-pwa/nuxt',
+    // '@vite-pwa/nuxt',  // DISABLED FOR DEBUGGING
     '@vueuse/nuxt'
   ],
+  /*
   pwa: {
     manifest: {
       name: 'RADIOPAGANDA',
@@ -58,7 +64,14 @@ export default defineNuxtConfig({
       ]
     },
     workbox: {
-      navigateFallback: '/',
+      // CAMBIA QUESTO:
+      navigateFallback: null, // Disabilitalo temporaneamente per evitare il loop dell'errore
+      runtimeCaching: [
+        {
+          urlPattern: '/data/.*',
+          handler: 'NetworkFirst', // Cerca sempre i dati aggiornati dal server
+        }
+      ]
     },
     client: {
       installPrompt: true,
@@ -68,6 +81,7 @@ export default defineNuxtConfig({
       type: 'module'
     }
   },
+  */
   css: [
     '~/assets/css/main.css'
   ]

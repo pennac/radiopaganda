@@ -56,15 +56,21 @@
 </template>
 
 <script setup lang="ts">
-import { useRoute, useAsyncData, useSeoMeta } from '#app';
-import { useContent } from '~/composables/useContent';
+import { computed } from 'vue';
+import { useRoute, useFetch, useSeoMeta } from '#app';
 
 const route = useRoute();
-const { fetchArticleBySlug } = useContent();
-
 const slug = route.params.slug as string;
 
-const { data: article, pending } = await useAsyncData(`article-${slug}`, () => fetchArticleBySlug(slug));
+const { data: categoryData, pending, error } = await useFetch<any>('/data/categories/operacion-rebelde.json', {
+  key: `article-${slug}`,
+  server: true
+});
+
+const article = computed(() => {
+  if (error.value || !categoryData.value?.articles) return null;
+  return categoryData.value.articles.find((a: any) => a.slug === slug) || null;
+});
 
 if (article.value) {
   useSeoMeta({

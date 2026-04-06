@@ -20,17 +20,37 @@
 </template>
 
 <script setup lang="ts">
-import { useAsyncData, useSeoMeta } from '#app';
-import { useContent } from '~/composables/useContent';
+import { computed } from 'vue';
+import { useFetch, useSeoMeta } from '#app';
 
-const { fetchArticlesByCategory, fetchManifesto } = useContent();
+// Robust unique-keyed SSR data fetching
+const { data: feedData, pending, error: feedError } = await useFetch<any>('/data/categories/operacion-rebelde.json', {
+  key: 'home-feed-data',
+  server: true
+});
 
-const [{ data: articles, pending, error }, { data: manifesto }] = await Promise.all([
-  useAsyncData('home-feed', () => fetchArticlesByCategory('operacion-rebelde')),
-  useAsyncData('home-manifesto', () => fetchManifesto())
-]);
+const { data: indexData, error: indexError } = await useFetch<any>('/data/index.json', {
+  key: 'home-index-data',
+  server: true
+});
 
-if (manifesto.value) {
+// Fallback logic to prevent undefined crashes and infinite suspensions
+const articles = computed(() => {
+  if (feedError.value || !feedData.value?.articles) return [];
+  return feedData.value.articles;
+});
+
+const manifesto = computed(() => {
+  if (indexError.value || !indexData.value?.manifesto) {
+    return { title: 'ERROR', description: 'Señal Perdida', seo_title: 'Error' };
+  }
+  return indexData.value.manifesto;
+});
+
+// Calculate global error state
+const error = computed(() => !!feedError.value || !!indexError.value);
+
+if (manifesto.value && manifesto.value.title !== 'ERROR') {
   useSeoMeta({
     title: manifesto.value.title,
     description: manifesto.value.description,

@@ -27,11 +27,20 @@
 </template>
 
 <script setup lang="ts">
-import { useAsyncData, useSeoMeta } from '#app';
-import { useContent } from '~/composables/useContent';
+import { computed } from 'vue';
+import { useFetch, useSeoMeta } from '#app';
 
-const { fetchManifesto } = useContent();
-const { data: manifesto, pending } = await useAsyncData('manifesto', fetchManifesto);
+const { data: indexData, pending, error } = await useFetch<any>('/data/index.json', {
+  key: 'manifesto-data',
+  server: true
+});
+
+const manifesto = computed(() => {
+  if (error.value || !indexData.value?.manifesto) {
+    return null;
+  }
+  return indexData.value.manifesto;
+});
 
 if (manifesto.value) {
   useSeoMeta({
