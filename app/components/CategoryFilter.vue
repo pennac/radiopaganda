@@ -24,11 +24,18 @@
 </template>
 
 <script setup lang="ts">
-import { useAsyncData, useState } from '#app';
-import { useContent } from '~/composables/useContent';
+import { computed } from 'vue';
+import { useFetch, useState } from '#app';
 
-const { fetchCategories } = useContent();
-const { data: categories } = await useAsyncData('categories-filter', fetchCategories);
+const { data: indexData, error } = await useFetch<any>('/data/index.json', {
+  key: 'categories-filter',
+  server: true
+});
+
+const categories = computed(() => {
+  if (error.value || !indexData.value?.categories) return [];
+  return indexData.value.categories;
+});
 
 const isCleanMode = useState('isCleanMode', () => false);
 </script>

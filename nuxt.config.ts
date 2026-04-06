@@ -2,12 +2,6 @@ export default defineNuxtConfig({
   ssr: true,
   nitro: {
     preset: 'netlify',
-    publicAssets: [
-      {
-        baseURL: '/data',
-        dir: 'public/data' // Forza l'inclusione di questa cartella nel búnker finale
-      }
-    ],
     prerender: {
       failOnError: false,
       crawlLinks: true

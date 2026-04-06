@@ -27,12 +27,18 @@
 </template>
 
 <script setup lang="ts">
-import { useAsyncData, useSeoMeta } from '#app';
-import { useContent } from '~/composables/useContent';
+import { computed } from 'vue';
+import { useFetch, useSeoMeta } from '#app';
 
-const { fetchCategories } = useContent();
+const { data: indexData, pending, error } = await useFetch<any>('/data/index.json', {
+  key: 'categories-page',
+  server: true
+});
 
-const { data: categories, pending } = await useAsyncData('categories', fetchCategories);
+const categories = computed(() => {
+  if (error.value || !indexData.value?.categories) return [];
+  return indexData.value.categories;
+});
 
 useSeoMeta({
   title: 'Categorías | RADIOPAGANDA',
